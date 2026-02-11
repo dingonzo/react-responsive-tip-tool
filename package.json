@@ -1,5 +1,6 @@
 {
-  "name": "tip-calulator",
+  "name": "react-responsive-tip-tool",
+  "homepage": "https://dingonzo.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
