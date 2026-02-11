@@ -1,11 +1,21 @@
 # Tip-Calculator
-Front-End Styling Highlights
-This project demonstrates advanced CSS3 techniques to provide a professional user experience:
+A modular and responsive web application built with React to help users calculate tips and split bills with ease.
 
-*   **Modern Layouts**: Leverages **CSS Grid** for the main dual-column container and **Flexbox** for alignment within the results section.
-*   **Responsive Design**: Includes a `@media` breakpoint at 600px to ensure the interface remains user-friendly on mobile devices by switching to a single-column stack.
-*   **Visual Fidelity**: 
-    *   Implements **Smooth Transitions** (0.5s ease-in-out) for interactive button states.
-    *   Uses **Box Shadows** and **Border Radii** for a modern "Card" UI aesthetic.
-    *   Features **Custom Input Styling** to provide a clean look by hiding default browser spin-buttons.
-*   **State-Linked Classes**: Uses dynamic class assignment (e.g., `.select`) to provide immediate visual feedback when a tip percentage is chosen.
+Features
+Real-time Calculations: Instantly computes tip amounts and totals as you type.
+Modular Architecture: Logic is split into reusable components for input and result display.
+State Management: Uses React hooks (useState) to manage and "lift" state between sibling components.
+Responsive UI: Optimized for both mobile and desktop viewing with custom-built CSS modules.
+One-Click Reset: Quickly clear all inputs to start a new calculation
+
+ Project Structure
+TipCalculator.js: The parent "source of truth" component that manages shared state.
+TipInput.js: Handles user inputs for bill amount, tip percentage, and group size.
+TipResult.js: Displays the calculated per-person tip and total.
+TipCalculator.css: Contains the primary layout and styling for a modern look.
+
+Technologies Used
+React (Functional Components & Hooks)
+JavaScript (ES6+)
+CSS3 (Custom Layouts & Modules
+
